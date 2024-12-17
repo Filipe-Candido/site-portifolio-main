@@ -1,9 +1,9 @@
 
 function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+      x.className += " responsive";
     } else {
-      x.style.display = "block";
+      x.className = "nav";
     }
   }

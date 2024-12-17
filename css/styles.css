@@ -331,5 +331,34 @@ footer{
     cursor:pointer;
 }
 
+.nav a.active {
+    color: white;
+}
+
+.nav .icon{
+    display: none;
+    
+  }
 
 
+  @media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: right;
+      display: block;
+      color: var(--text-color);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
