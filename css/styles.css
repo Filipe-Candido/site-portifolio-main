@@ -341,7 +341,7 @@ footer{
   }
 
 
-  @media screen and (max-width: 608px) {
+  @media screen and (max-width: 750px) {
     .nav a:not(:first-child) {display: none;}
     .nav a.icon {
       float: right;
@@ -349,7 +349,7 @@ footer{
       color: var(--text-color);
     }
   }
-  @media screen and (max-width: 608px) {
+  @media screen and (max-width: 750px) {
     .nav.responsive {position: relative;}
     .nav.responsive a.icon {
       position: absolute;
