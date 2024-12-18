@@ -363,14 +363,4 @@ footer{
     }
   }
 
-/*small samrtphone landscape*/
- 
-@media scream and (max-width: 700px) {
 
- .nav{
-    display: none;
- }
-
-
-    
-  }
