@@ -353,7 +353,7 @@ footer{
 
 /*Celular*/
 
-@media (max-width:576px) {
+@media (max-width:409px) {
     html,
     body{
     overflow-x:hidden;
