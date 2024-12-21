@@ -158,6 +158,7 @@ span{
     letter-spacing: 0.1rem;
     transition: 0.3s ease;
     margin-top: 1.2rem;
+    margin-bottom: 40px;
 }
 .btn:hover{
 
@@ -233,41 +234,6 @@ span{
     justify-content: center;
 }
 
-/*.portifolio-layer a i{
-
-    font-size: 1.5rem;
-    color:#000;
-}
-*/
-/*
-.portifolio-box {  /*.portifolio-layer*/
-/*
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent, var(--color-03));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0 4rem;
-    transform:translateY(30rem);
-    overflow: hidden;
-    transition: 0.5s ease;
-    
-}
-
-.portifolio-box:hover .portifolio-layer{
-
-    transform: translateY(0);
-
-
-}
-*/
-
 .social-media a {
     font-size: 2rem;
     color: var(--main-color);
@@ -327,6 +293,7 @@ footer{
     align-items: center;
     padding: 1.2rem;
     background-color: var(--color-05);
+    font-size: 10px;
 }
 
 
@@ -391,19 +358,27 @@ footer{
     .home-content, .about-content{
         width: 100%;
         text-align: center;
+        
     }
     .home-content div{
         text-align: center;
     }
 
-    .home-content h1, .about-content h1{
+    .home-content h1{
 
         font-size: 2.2rem;
         font-weight: 700;
         line-height: 1.3;
+        text-align: center;
 
+
+    }
    
 
+    .about-content h1{
+    text-align: center;
+    padding: 5px;
+    
     }
     .home-content p{
 
@@ -424,6 +399,7 @@ footer{
 
     .portifolio-box{
         width: 80%;
+        
 
     }
     .portifolio-layer {
@@ -435,6 +411,7 @@ footer{
 
     }
     .portifolio-layer h4 { 
+       
        margin-left: -10px;
 
     }
@@ -463,11 +440,14 @@ footer{
     }
 
      footer{
+        font-size: 5px;
         margin-top: 20px;
         display: flex;
         text-align: center;
      }
 
-
-}
-
+     footer p{
+        
+     }
+     
+    }
