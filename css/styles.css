@@ -385,7 +385,10 @@ footer{
        
     }
 
-    
+    .container-01{
+        
+        flex-direction: column;
+    }
     .portifolio{
         padding: 6rem 2.5rem;
         flex-direction: column;
@@ -393,10 +396,16 @@ footer{
 
 
     .portifolio-box{
+        margin-bottom: 50px;
         width: 80%;
-        
+     
 
     }
+    .portifolio-box img{
+
+        margin-bottom: 25px;
+            
+    } 
     .portifolio-layer {
         align-items: center;
         margin-top: 200px;
@@ -406,7 +415,7 @@ footer{
 
     }
     .portifolio-layer h4 { 
-       
+       margin-top: 120px;
        margin-left: -10px;
 
     }
