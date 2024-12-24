@@ -409,10 +409,29 @@ footer{
 
         text-align: center;
     }
-    form .input-box{
-        width: 150%;
-        max-width: 100%;
+
+    #contact{
+        border: solid 1px yellow;
+        padding-left:55px ;
+    }
+    form {
+        border: solid 1px red;
+        padding-left: 5px;
+        width: 350px;
+    }
+    
+    
+    
+    .input-box {
+        width: 350px;
+        
+        
        
+    }
+
+    textarea{
+        width: 350px;
+
     }
 
     .container-projetos{
@@ -420,7 +439,7 @@ footer{
         flex-direction: column;
     }
     .portifolio{
-        padding: 6rem 2.5rem;
+        padding: 2rem 1.7rem;
         flex-direction: column;
     } 
 
