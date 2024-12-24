@@ -421,11 +421,14 @@ footer{
     }
     form {
         
-        padding-left: 5px;
+        
         width: 350px;
     }
     
-    
+    form .btn{
+
+        margin-right: 50px;
+    }
     
     .input-box {
         width: 300px;
