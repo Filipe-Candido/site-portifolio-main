@@ -162,6 +162,10 @@ span{
     background-color: var(--bg-color-01);
     
 }
+
+.container-01{
+    display: flex;
+}
 .portifolio-container{
     display:grid;
     gap: 1.2rem;
